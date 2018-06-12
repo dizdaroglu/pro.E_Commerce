@@ -1,0 +1,6 @@
+C:\Users\LENOVO\Desktop\PROJEMİZ\pro_E_Commerce\pro\pro.BusinessLayer\bin\Debug\pro.BusinessLayer.dll
+C:\Users\LENOVO\Desktop\PROJEMİZ\pro_E_Commerce\pro\pro.BusinessLayer\bin\Debug\pro.BusinessLayer.pdb
+C:\Users\LENOVO\Desktop\PROJEMİZ\pro_E_Commerce\pro\pro.BusinessLayer\obj\Debug\pro.BusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\LENOVO\Desktop\PROJEMİZ\pro_E_Commerce\pro\pro.BusinessLayer\obj\Debug\pro.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\PROJEMİZ\pro_E_Commerce\pro\pro.BusinessLayer\obj\Debug\pro.BusinessLayer.dll
+C:\Users\LENOVO\Desktop\PROJEMİZ\pro_E_Commerce\pro\pro.BusinessLayer\obj\Debug\pro.BusinessLayer.pdb
