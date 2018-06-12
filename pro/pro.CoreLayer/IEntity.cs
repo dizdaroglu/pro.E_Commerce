@@ -9,5 +9,6 @@ namespace pro.CoreLayer
     public interface IEntity
     {
         // burayı miras alan taraf bir veritabanı tablosudur.
+
     }
 }
