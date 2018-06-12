@@ -4,3 +4,9 @@ C:\Users\LENOVO\Desktop\PROJEMİZ\pro_E_Commerce\pro\pro.CoreLayer\obj\Debug\pro
 C:\Users\LENOVO\Desktop\PROJEMİZ\pro_E_Commerce\pro\pro.CoreLayer\obj\Debug\pro.CoreLayer.csproj.CoreCompileInputs.cache
 C:\Users\LENOVO\Desktop\PROJEMİZ\pro_E_Commerce\pro\pro.CoreLayer\obj\Debug\pro.CoreLayer.dll
 C:\Users\LENOVO\Desktop\PROJEMİZ\pro_E_Commerce\pro\pro.CoreLayer\obj\Debug\pro.CoreLayer.pdb
+C:\Users\LENOVO\Desktop\PROJEMİZ\E_Commerce\pro\pro.CoreLayer\bin\Debug\pro.CoreLayer.dll
+C:\Users\LENOVO\Desktop\PROJEMİZ\E_Commerce\pro\pro.CoreLayer\bin\Debug\pro.CoreLayer.pdb
+C:\Users\LENOVO\Desktop\PROJEMİZ\E_Commerce\pro\pro.CoreLayer\obj\Debug\pro.CoreLayer.csprojResolveAssemblyReference.cache
+C:\Users\LENOVO\Desktop\PROJEMİZ\E_Commerce\pro\pro.CoreLayer\obj\Debug\pro.CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\PROJEMİZ\E_Commerce\pro\pro.CoreLayer\obj\Debug\pro.CoreLayer.dll
+C:\Users\LENOVO\Desktop\PROJEMİZ\E_Commerce\pro\pro.CoreLayer\obj\Debug\pro.CoreLayer.pdb
