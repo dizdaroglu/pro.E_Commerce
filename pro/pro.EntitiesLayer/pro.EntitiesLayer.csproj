@@ -43,11 +43,16 @@
   <ItemGroup>
     <Compile Include="Models\BaseEntity.cs" />
     <Compile Include="Models\Basket.cs" />
+    <Compile Include="Models\Buy.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Colors.cs" />
+    <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Favs.cs" />
+    <Compile Include="Models\Images.cs" />
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\ProductSizeColor.cs" />
     <Compile Include="Models\Roles.cs" />
+    <Compile Include="Models\Size.cs" />
     <Compile Include="Models\SubCategory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
