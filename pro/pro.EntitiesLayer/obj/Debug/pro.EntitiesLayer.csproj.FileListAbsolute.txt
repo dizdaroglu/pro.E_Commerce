@@ -10,3 +10,11 @@ C:\Users\LENOVO\Desktop\PROJEMİZ\E_Commerce\pro\pro.EntitiesLayer\obj\Debug\pro
 C:\Users\LENOVO\Desktop\PROJEMİZ\E_Commerce\pro\pro.EntitiesLayer\obj\Debug\pro.EntitiesLayer.csproj.CoreCompileInputs.cache
 C:\Users\LENOVO\Desktop\PROJEMİZ\E_Commerce\pro\pro.EntitiesLayer\obj\Debug\pro.EntitiesLayer.dll
 C:\Users\LENOVO\Desktop\PROJEMİZ\E_Commerce\pro\pro.EntitiesLayer\obj\Debug\pro.EntitiesLayer.pdb
+C:\e-commerce\proje\pro\pro.EntitiesLayer\bin\Debug\pro.EntitiesLayer.dll
+C:\e-commerce\proje\pro\pro.EntitiesLayer\bin\Debug\pro.EntitiesLayer.pdb
+C:\e-commerce\proje\pro\pro.EntitiesLayer\bin\Debug\pro.CoreLayer.dll
+C:\e-commerce\proje\pro\pro.EntitiesLayer\bin\Debug\pro.CoreLayer.pdb
+C:\e-commerce\proje\pro\pro.EntitiesLayer\obj\Debug\pro.EntitiesLayer.csprojResolveAssemblyReference.cache
+C:\e-commerce\proje\pro\pro.EntitiesLayer\obj\Debug\pro.EntitiesLayer.csproj.CoreCompileInputs.cache
+C:\e-commerce\proje\pro\pro.EntitiesLayer\obj\Debug\pro.EntitiesLayer.dll
+C:\e-commerce\proje\pro\pro.EntitiesLayer\obj\Debug\pro.EntitiesLayer.pdb

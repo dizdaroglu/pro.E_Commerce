@@ -9,15 +9,12 @@ using System.Threading.Tasks;
 
 namespace pro.EntitiesLayer.Models
 {
-    public class Category:BaseEntity,IEntity
+    public class ProductSizeColor:BaseEntity,IEntity
     {
-        // Test Edildi
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int CategoryId { get; set; }
-        public string Name { get; set; }
-
-        public int SubCategoryId { get; set; }
-        public List<SubCategory> SubCategory { get; set; } // birden fazla alt kategori
-
+        public int ProductSizeColorId { get; set; }
+        public int ProductId { get; set; }
+        public int ColorId { get; set; }
+        public int SizeId { get; set; }
     }
 }
