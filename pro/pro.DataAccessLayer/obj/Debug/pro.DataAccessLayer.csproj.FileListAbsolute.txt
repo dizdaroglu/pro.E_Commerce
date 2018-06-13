@@ -10,3 +10,9 @@ C:\Users\LENOVO\Desktop\PROJEMİZ\E_Commerce\pro\pro.DataAccessLayer\obj\Debug\p
 C:\Users\LENOVO\Desktop\PROJEMİZ\E_Commerce\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.csproj.CoreCompileInputs.cache
 C:\Users\LENOVO\Desktop\PROJEMİZ\E_Commerce\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.dll
 C:\Users\LENOVO\Desktop\PROJEMİZ\E_Commerce\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.pdb
+C:\e-commerce\proje\pro\pro.DataAccessLayer\bin\Debug\pro.DataAccessLayer.dll
+C:\e-commerce\proje\pro\pro.DataAccessLayer\bin\Debug\pro.DataAccessLayer.pdb
+C:\e-commerce\proje\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\e-commerce\proje\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\e-commerce\proje\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.dll
+C:\e-commerce\proje\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.pdb
