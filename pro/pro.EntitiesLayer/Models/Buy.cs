@@ -23,5 +23,8 @@ namespace pro.EntitiesLayer.Models
         public string Province { get; set; }
         public string Phone { get; set; }
         public string Email { get; set; }
+        public int PrductId { get; set; }
+
+        public virtual Product Product { get; set; }
     }
 }

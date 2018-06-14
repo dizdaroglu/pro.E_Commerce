@@ -19,7 +19,18 @@ namespace pro.EntitiesLayer.Models
         public string Email { get; set; }
         public string Password { get; set; }
         public string ProfileImage { get; set; }
-        public int RoleId { get; set; }
+        public int RoleId { get; set; } // FK 
+
+        public virtual Roles Role { get; set; } // Gezmek için 
+
+        // Bir kişini birden fazla favı olur
+        public virtual List<Favs> Favs { get; set; }
+
+        public Customer()
+        {
+            Favs = new List<Models.Favs>();
+        }
+
 
     }
 }
