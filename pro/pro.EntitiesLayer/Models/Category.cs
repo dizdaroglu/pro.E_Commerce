@@ -16,8 +16,17 @@ namespace pro.EntitiesLayer.Models
         public int CategoryId { get; set; }
         public string Name { get; set; }
 
-        public int SubCategoryId { get; set; }
-        public List<SubCategory> SubCategory { get; set; } // birden fazla alt kategori
+        
+        public virtual List<SubCategory> SubCategory { get; set; } // birden fazla alt kategori
+
+        public Category()
+        {
+            SubCategory = new List<Models.SubCategory>();
+            Products = new List<Product>();
+        }
+
+        // Bir kategoriye ait birden fazla ürü olur 
+        public virtual List<Product> Products { get; set; }
 
     }
 }

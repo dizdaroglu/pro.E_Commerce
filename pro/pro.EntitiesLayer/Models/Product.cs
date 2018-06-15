@@ -18,8 +18,24 @@ namespace pro.EntitiesLayer.Models
         public Guid ProductCode { get; set; }
         public double UnitsInStock { get; set; }
         public double UnitPrice { get; set; }
-        public int CategoryId { get; set; }
-        public int SubCategoryId { get; set; }
-       
+        // public int CategoryId { get; set; } // FK
+        public int SubCategoryId { get; set; } // FK 
+
+        // Her ürün bir kategoriye aittir.
+        // public virtual Category Category { get; set; }
+        public virtual SubCategory SubCategory { get; set; }
+
+        // Bir ürünün birden fazla colorı ve size olur resmi olr  
+        public virtual List<Colors> Colors { get; set; }
+        public virtual List<Size> Size { get; set; }
+        public virtual List<Images> Images { get; set; }
+        public Product()
+        {
+            Colors = new List<Models.Colors>();
+            Size = new List<Models.Size>();
+            Images = new List<Models.Images>();
+        }
+
+
     }
 }
