@@ -18,3 +18,15 @@ C:\e-commerce\proje\pro\pro.EntitiesLayer\obj\Debug\pro.EntitiesLayer.csprojReso
 C:\e-commerce\proje\pro\pro.EntitiesLayer\obj\Debug\pro.EntitiesLayer.csproj.CoreCompileInputs.cache
 C:\e-commerce\proje\pro\pro.EntitiesLayer\obj\Debug\pro.EntitiesLayer.dll
 C:\e-commerce\proje\pro\pro.EntitiesLayer\obj\Debug\pro.EntitiesLayer.pdb
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.EntitiesLayer\bin\Debug\pro.EntitiesLayer.dll
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.EntitiesLayer\bin\Debug\pro.EntitiesLayer.pdb
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.EntitiesLayer\bin\Debug\pro.CoreLayer.dll
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.EntitiesLayer\bin\Debug\EntityFramework.dll
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.EntitiesLayer\bin\Debug\pro.CoreLayer.pdb
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.EntitiesLayer\bin\Debug\pro.CoreLayer.dll.config
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.EntitiesLayer\bin\Debug\EntityFramework.xml
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.EntitiesLayer\obj\Debug\pro.EntitiesLayer.csprojAssemblyReference.cache
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.EntitiesLayer\obj\Debug\pro.EntitiesLayer.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.EntitiesLayer\obj\Debug\pro.EntitiesLayer.csproj.CopyComplete
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.EntitiesLayer\obj\Debug\pro.EntitiesLayer.dll
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.EntitiesLayer\obj\Debug\pro.EntitiesLayer.pdb

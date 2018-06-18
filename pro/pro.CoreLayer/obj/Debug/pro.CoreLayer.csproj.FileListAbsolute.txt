@@ -10,3 +10,15 @@ C:\Users\LENOVO\Desktop\PROJEMİZ\E_Commerce\pro\pro.CoreLayer\obj\Debug\pro.Cor
 C:\Users\LENOVO\Desktop\PROJEMİZ\E_Commerce\pro\pro.CoreLayer\obj\Debug\pro.CoreLayer.csproj.CoreCompileInputs.cache
 C:\Users\LENOVO\Desktop\PROJEMİZ\E_Commerce\pro\pro.CoreLayer\obj\Debug\pro.CoreLayer.dll
 C:\Users\LENOVO\Desktop\PROJEMİZ\E_Commerce\pro\pro.CoreLayer\obj\Debug\pro.CoreLayer.pdb
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.CoreLayer\bin\Debug\pro.CoreLayer.dll.config
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.CoreLayer\bin\Debug\pro.CoreLayer.dll
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.CoreLayer\bin\Debug\pro.CoreLayer.pdb
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.CoreLayer\bin\Debug\EntityFramework.dll
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.CoreLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.CoreLayer\bin\Debug\EntityFramework.xml
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.CoreLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.CoreLayer\obj\Debug\pro.CoreLayer.csprojAssemblyReference.cache
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.CoreLayer\obj\Debug\pro.CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.CoreLayer\obj\Debug\pro.CoreLayer.csproj.CopyComplete
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.CoreLayer\obj\Debug\pro.CoreLayer.dll
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.CoreLayer\obj\Debug\pro.CoreLayer.pdb
