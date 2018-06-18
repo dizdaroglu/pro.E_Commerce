@@ -18,7 +18,7 @@ namespace pro.CoreLayer.GenericRepository
 
         TEntity Find(Expression<Func<TEntity, bool>> where);
 
-        List<TEntity> FindAll(Expression<Func<TEntity, bool>> predicate);
+        List<TEntity> FindAll(Expression<Func<TEntity, bool>> predicate=null);
 
         void RemoveRange(List<TEntity> entities);
 

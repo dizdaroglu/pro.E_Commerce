@@ -16,3 +16,7 @@ C:\e-commerce\proje\pro\pro.BusinessLayer\obj\Debug\pro.BusinessLayer.csprojReso
 C:\e-commerce\proje\pro\pro.BusinessLayer\obj\Debug\pro.BusinessLayer.csproj.CoreCompileInputs.cache
 C:\e-commerce\proje\pro\pro.BusinessLayer\obj\Debug\pro.BusinessLayer.dll
 C:\e-commerce\proje\pro\pro.BusinessLayer\obj\Debug\pro.BusinessLayer.pdb
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.BusinessLayer\obj\Debug\pro.BusinessLayer.csprojAssemblyReference.cache
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.BusinessLayer\obj\Debug\pro.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.BusinessLayer\obj\Debug\pro.BusinessLayer.dll
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.BusinessLayer\obj\Debug\pro.BusinessLayer.pdb

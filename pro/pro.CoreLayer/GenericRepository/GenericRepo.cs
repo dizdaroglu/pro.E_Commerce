@@ -35,9 +35,10 @@ namespace pro.CoreLayer.GenericRepository
             return objectSet.FirstOrDefault(where);
         }
 
-        public List<T> FindAll(Expression<Func<T, bool>> predicate)
+        public List<T> FindAll(Expression<Func<T, bool>> predicate=null)
         {
-            return objectSet.Where(predicate).ToList();
+            return  predicate == null ? objectSet.ToList() 
+                    :   objectSet.Where(predicate).ToList();
         }
 
         public void Remove(T entity)

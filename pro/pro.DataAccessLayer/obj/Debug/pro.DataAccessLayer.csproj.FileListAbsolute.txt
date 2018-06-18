@@ -27,3 +27,9 @@ C:\e-commerce\proje\pro\pro.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.
 C:\e-commerce\proje\pro\pro.DataAccessLayer\bin\Debug\pro.CoreLayer.pdb
 C:\e-commerce\proje\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.Migrations.createAllTables.resources
 C:\e-commerce\proje\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.csproj.GenerateResource.Cache
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.Migrations.createAllTables.resources
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.csproj.GenerateResource.cache
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.dll
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.pdb
