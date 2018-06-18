@@ -8,6 +8,7 @@ namespace pro.EntitiesLayer.Models
 {
    public  class BaseEntity
     {
+        // Burası herkesin ortak kullandıgı yerdir.
         public DateTime CreatedDate  { get; set; }
         public DateTime ModifiedDate { get; set; }
         public DateTime RemovedDate { get; set; }
