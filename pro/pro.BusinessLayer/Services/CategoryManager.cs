@@ -23,7 +23,7 @@ namespace pro.BusinessLayer.Services
 
         public List<Category> GetCategoryList()
         {
-            // _unitOfWork.SubCategoryDal.FindAll(m => m.CategoryId == id);
+            // _unitOfWork.SubCategoryDal.FindAll(m => m.CategoryId == id); // ekledim
            return  _unitOfWork.CategoryDal.FindAll();
         }
 
