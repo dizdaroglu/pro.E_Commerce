@@ -76,6 +76,10 @@
     <Compile Include="Migrations\201806131229259_createAllTables.Designer.cs">
       <DependentUpon>201806131229259_createAllTables.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201806190900365_create_brand_table.cs" />
+    <Compile Include="Migrations\201806190900365_create_brand_table.Designer.cs">
+      <DependentUpon>201806190900365_create_brand_table.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UnitOfWork\Abstract\IUnitOfWork.cs" />
@@ -98,6 +102,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201806131229259_createAllTables.resx">
       <DependentUpon>201806131229259_createAllTables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201806190900365_create_brand_table.resx">
+      <DependentUpon>201806190900365_create_brand_table.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />

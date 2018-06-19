@@ -18,11 +18,25 @@ namespace pro.BusinessLayer.Services
             
             _unitOfWork = new UnitOfWork(new DataAccessLayer.DAL.DatabaseContext());
         }
+
+       
+
         public List<Category> GetCategoryList()
         {
             // _unitOfWork.SubCategoryDal.FindAll(m => m.CategoryId == id);
            return  _unitOfWork.CategoryDal.FindAll();
         }
+
+       
+        
+
+        
+
+        
+
+        
+
+       
     }
 
     //public class BaseClass
