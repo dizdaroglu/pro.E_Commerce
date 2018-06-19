@@ -17,6 +17,7 @@ namespace pro.EntitiesLayer.Models
         public string ProductName { get; set; }
         public Guid ProductCode { get; set; }
         public double UnitsInStock { get; set; }
+        public int BrandId { get; set; }
         public double UnitPrice { get; set; }
         // public int CategoryId { get; set; } // FK
         public int SubCategoryId { get; set; } // FK 
@@ -24,6 +25,7 @@ namespace pro.EntitiesLayer.Models
         // Her ürün bir kategoriye aittir.
         // public virtual Category Category { get; set; }
         public virtual SubCategory SubCategory { get; set; }
+        public virtual Brand Brand { get; set; }
 
         // Bir ürünün birden fazla colorı ve size olur resmi olr  
         public virtual List<Colors> Colors { get; set; }
