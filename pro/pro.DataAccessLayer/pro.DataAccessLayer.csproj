@@ -72,23 +72,6 @@
     <Compile Include="Concreate\EfSizeDal.cs" />
     <Compile Include="Concreate\EfSubCategoryDal.cs" />
     <Compile Include="DAL\DatabaseContext.cs" />
-    <Compile Include="Migrations\201806131229259_createAllTables.cs" />
-    <Compile Include="Migrations\201806131229259_createAllTables.Designer.cs">
-      <DependentUpon>201806131229259_createAllTables.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201806190900365_create_brand_table.cs" />
-    <Compile Include="Migrations\201806190900365_create_brand_table.Designer.cs">
-      <DependentUpon>201806190900365_create_brand_table.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201806191137521_create_customer_activecode.cs" />
-    <Compile Include="Migrations\201806191137521_create_customer_activecode.Designer.cs">
-      <DependentUpon>201806191137521_create_customer_activecode.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201806191156526_update_product.cs" />
-    <Compile Include="Migrations\201806191156526_update_product.Designer.cs">
-      <DependentUpon>201806191156526_update_product.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UnitOfWork\Abstract\IUnitOfWork.cs" />
     <Compile Include="UnitOfWork\Concreate\UnitOfWork.cs" />
@@ -106,20 +89,6 @@
       <Project>{9C400779-18DE-4E9F-A342-22F3C6C6FF26}</Project>
       <Name>pro.EntitiesLayer</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201806131229259_createAllTables.resx">
-      <DependentUpon>201806131229259_createAllTables.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201806190900365_create_brand_table.resx">
-      <DependentUpon>201806190900365_create_brand_table.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201806191137521_create_customer_activecode.resx">
-      <DependentUpon>201806191137521_create_customer_activecode.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201806191156526_update_product.resx">
-      <DependentUpon>201806191156526_update_product.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

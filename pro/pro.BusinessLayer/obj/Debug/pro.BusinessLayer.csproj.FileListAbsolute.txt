@@ -50,3 +50,13 @@ C:\Users\LENOVO\Desktop\PROOOO\pro\pro.BusinessLayer\obj\Debug\pro.BusinessLayer
 C:\Users\LENOVO\Desktop\PROOOO\pro\pro.BusinessLayer\obj\Debug\pro.BusinessLayer.csproj.CopyComplete
 C:\Users\LENOVO\Desktop\PROOOO\pro\pro.BusinessLayer\obj\Debug\pro.BusinessLayer.dll
 C:\Users\LENOVO\Desktop\PROOOO\pro\pro.BusinessLayer\obj\Debug\pro.BusinessLayer.pdb
+C:\e-commerce\proje\pro\pro.BusinessLayer\bin\Debug\pro.CoreLayer.dll
+C:\e-commerce\proje\pro\pro.BusinessLayer\bin\Debug\pro.DataAccessLayer.dll
+C:\e-commerce\proje\pro\pro.BusinessLayer\bin\Debug\pro.EntitiesLayer.dll
+C:\e-commerce\proje\pro\pro.BusinessLayer\bin\Debug\EntityFramework.dll
+C:\e-commerce\proje\pro\pro.BusinessLayer\bin\Debug\pro.CoreLayer.pdb
+C:\e-commerce\proje\pro\pro.BusinessLayer\bin\Debug\pro.CoreLayer.dll.config
+C:\e-commerce\proje\pro\pro.BusinessLayer\bin\Debug\pro.DataAccessLayer.pdb
+C:\e-commerce\proje\pro\pro.BusinessLayer\bin\Debug\pro.DataAccessLayer.dll.config
+C:\e-commerce\proje\pro\pro.BusinessLayer\bin\Debug\pro.EntitiesLayer.pdb
+C:\e-commerce\proje\pro\pro.BusinessLayer\bin\Debug\EntityFramework.xml

@@ -19,7 +19,7 @@ namespace pro.Web.Controllers
         }
         public ActionResult Index()
         {
-             // List<Category>  categoryList = _categoryServices.GetCategoryList();
+              List<Category>  categoryList = _categoryServices.GetCategoryList();
             return View();
         }
 
@@ -35,6 +35,11 @@ namespace pro.Web.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+        public ActionResult _CategoriesPartial()
+        {
+            List<Category> liste = _categoryServices.GetCategoryList();
+            return View(liste);
         }
     }
 }

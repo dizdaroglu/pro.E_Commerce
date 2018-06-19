@@ -25,8 +25,6 @@ C:\e-commerce\proje\pro\pro.DataAccessLayer\bin\Debug\pro.EntitiesLayer.pdb
 C:\e-commerce\proje\pro\pro.DataAccessLayer\bin\Debug\EntityFramework.xml
 C:\e-commerce\proje\pro\pro.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
 C:\e-commerce\proje\pro\pro.DataAccessLayer\bin\Debug\pro.CoreLayer.pdb
-C:\e-commerce\proje\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.Migrations.createAllTables.resources
-C:\e-commerce\proje\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.csproj.GenerateResource.Cache
 C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.csprojAssemblyReference.cache
 C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.Migrations.createAllTables.resources
 C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.csproj.GenerateResource.cache
@@ -47,9 +45,6 @@ C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\bin\Debug\EntityFramework.
 C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.csproj.CopyComplete
 C:\e-commerce\proje\pro\pro.DataAccessLayer\bin\Debug\pro.CoreLayer.dll.config
-C:\e-commerce\proje\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.Migrations.create_brand_table.resources
-C:\e-commerce\proje\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.Migrations.create_customer_activecode.resources
-C:\e-commerce\proje\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.Migrations.update_product.resources
 C:\Users\LENOVO\Desktop\PROOOO\pro\pro.DataAccessLayer\bin\Debug\pro.DataAccessLayer.dll.config
 C:\Users\LENOVO\Desktop\PROOOO\pro\pro.DataAccessLayer\bin\Debug\pro.DataAccessLayer.dll
 C:\Users\LENOVO\Desktop\PROOOO\pro\pro.DataAccessLayer\bin\Debug\pro.DataAccessLayer.pdb

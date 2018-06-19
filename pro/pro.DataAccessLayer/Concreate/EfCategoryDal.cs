@@ -13,10 +13,12 @@ namespace pro.DataAccessLayer.Concreate
     public class EfCategoryDal:GenericRepo<Category>,ICategoryDal
     {
         // protected alanı cast et 
-        //  public DatabaseContext GetContext { get { return _context as DatabaseContext;} }
+          public DatabaseContext GetContext { get { return _context as DatabaseContext;} }
         public EfCategoryDal(DatabaseContext context):base(context)
         {
 
         }
+
+        
     }
 }
