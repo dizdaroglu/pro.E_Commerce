@@ -215,6 +215,7 @@
     <Content Include="Content\css\nice-select.css" />
     <Content Include="Content\css\owl.carousel.css" />
     <Content Include="Content\style.css" />
+    <Content Include="denemeFURKAN.html" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
