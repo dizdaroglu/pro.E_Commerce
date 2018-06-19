@@ -49,3 +49,4 @@ C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLa
 C:\e-commerce\proje\pro\pro.DataAccessLayer\bin\Debug\pro.CoreLayer.dll.config
 C:\e-commerce\proje\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.Migrations.create_brand_table.resources
 C:\e-commerce\proje\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.Migrations.create_customer_activecode.resources
+C:\e-commerce\proje\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.Migrations.update_product.resources
