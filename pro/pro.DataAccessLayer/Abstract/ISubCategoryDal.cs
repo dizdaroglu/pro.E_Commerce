@@ -27,5 +27,7 @@ namespace pro.DataAccessLayer.Abstract
         //void AddRange(List<TEntity> entities);
 
 
+
+
     }
 }
