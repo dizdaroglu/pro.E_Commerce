@@ -20,6 +20,7 @@ namespace pro.BusinessLayer.Services
         }
         public List<Category> GetCategoryList()
         {
+            // _unitOfWork.SubCategoryDal.FindAll(m => m.CategoryId == id);
            return  _unitOfWork.CategoryDal.FindAll();
         }
     }

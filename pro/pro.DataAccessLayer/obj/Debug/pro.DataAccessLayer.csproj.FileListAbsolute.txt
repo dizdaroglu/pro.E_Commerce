@@ -33,3 +33,16 @@ C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLa
 C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.csproj.CoreCompileInputs.cache
 C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.dll
 C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.pdb
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\bin\Debug\pro.DataAccessLayer.dll.config
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\bin\Debug\pro.DataAccessLayer.dll
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\bin\Debug\pro.DataAccessLayer.pdb
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\bin\Debug\pro.CoreLayer.dll
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\bin\Debug\pro.EntitiesLayer.dll
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\bin\Debug\pro.CoreLayer.pdb
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\bin\Debug\pro.CoreLayer.dll.config
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\bin\Debug\pro.EntitiesLayer.pdb
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.csproj.CopyComplete

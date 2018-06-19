@@ -20,6 +20,7 @@ namespace pro.CoreLayer.GenericRepository
         
         public void Add(T entity)
         {
+             // _context.Set<T>().Add(entity);
             objectSet.Add(entity);
 
         }
