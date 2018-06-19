@@ -21,6 +21,7 @@ namespace pro.BusinessLayer.Services
         }
 
         #region custoemr işleri 
+        
 
         /// <summary>
         /// Gelen kullaniinini kaydina bakarak bool doner 
