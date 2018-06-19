@@ -33,8 +33,6 @@ namespace pro.BusinessLayer.Abstract
         /// <returns></returns>
         List<Basket> GetBasketListByCustomer(Customer customer);
 
-
         
-
     }
 }

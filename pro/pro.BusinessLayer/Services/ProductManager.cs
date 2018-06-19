@@ -45,20 +45,19 @@ namespace pro.BusinessLayer.Services
         public List<Product> GetProductsBySubCategory(int SubCategoryId)
         {
 
-            if (SubCategoryId==null)
-            {
-                throw new ArgumentNullException("SubCategroyId null ");
+            //if (SubCategoryId == null)
+            //{
+            //    throw new ArgumentNullException("SubCategroyId null ");
 
-            }
-            else
+            //}
+
+            List<Product> result = _unitOfWork.ProductDal.FindAll(m => m.SubCategoryId == SubCategoryId);
+            if (result != null)
             {
-                List<Product> result = _unitOfWork.ProductDal.FindAll(m => m.SubCategoryId == SubCategoryId);
-                if (result!=null)
-                {
-                    return result;
-                }
-                
+                return result;
             }
+
+
 
             return null;
         }

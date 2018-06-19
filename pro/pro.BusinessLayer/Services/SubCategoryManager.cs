@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace pro.BusinessLayer.Services
 {
-    class SubCategoryManager : ISubCategoryServices
+    public class SubCategoryManager : ISubCategoryServices
     {
         public IUnitOfWork _unitOfWork;
         public SubCategoryManager()

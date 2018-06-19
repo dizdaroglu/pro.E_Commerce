@@ -1,4 +1,6 @@
-﻿using System;
+﻿using pro.BusinessLayer.Abstract;
+using pro.EntitiesLayer.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,8 +10,16 @@ namespace pro.Web.Controllers
 {
     public class HomeController : Controller
     {
+
+
+        private ICategoryServices _categoryServices;
+        public HomeController(ICategoryServices categoryServices)
+        {
+            _categoryServices = categoryServices;
+        }
         public ActionResult Index()
         {
+             // List<Category>  categoryList = _categoryServices.GetCategoryList();
             return View();
         }
 
