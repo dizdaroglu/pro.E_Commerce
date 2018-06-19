@@ -7,16 +7,8 @@ using System.Threading.Tasks;
 
 namespace pro.BusinessLayer.Abstract
 {
-    public interface ICategoryServices
+    public interface ISubCategoryServices
     {
-        // Kategori listeleme
-        List<Category> GetCategoryList(); // kategori çeker
-
-      
-
-       
-
-       
-        
+        List<SubCategory> GetSubCategoryList(int id);
     }
 }

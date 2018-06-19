@@ -46,3 +46,5 @@ C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\bin\Debug\pro.EntitiesLaye
 C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\bin\Debug\EntityFramework.xml
 C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.csproj.CopyComplete
+C:\e-commerce\proje\pro\pro.DataAccessLayer\bin\Debug\pro.CoreLayer.dll.config
+C:\e-commerce\proje\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.Migrations.create_brand_table.resources

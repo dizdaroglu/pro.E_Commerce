@@ -30,3 +30,6 @@ C:\Users\LENOVO\Desktop\PROJE\pro\pro.EntitiesLayer\obj\Debug\pro.EntitiesLayer.
 C:\Users\LENOVO\Desktop\PROJE\pro\pro.EntitiesLayer\obj\Debug\pro.EntitiesLayer.csproj.CopyComplete
 C:\Users\LENOVO\Desktop\PROJE\pro\pro.EntitiesLayer\obj\Debug\pro.EntitiesLayer.dll
 C:\Users\LENOVO\Desktop\PROJE\pro\pro.EntitiesLayer\obj\Debug\pro.EntitiesLayer.pdb
+C:\e-commerce\proje\pro\pro.EntitiesLayer\bin\Debug\EntityFramework.dll
+C:\e-commerce\proje\pro\pro.EntitiesLayer\bin\Debug\pro.CoreLayer.dll.config
+C:\e-commerce\proje\pro\pro.EntitiesLayer\bin\Debug\EntityFramework.xml

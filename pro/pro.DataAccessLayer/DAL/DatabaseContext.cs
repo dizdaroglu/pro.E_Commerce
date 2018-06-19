@@ -18,6 +18,7 @@ namespace pro.DataAccessLayer.DAL
 
         public DbSet<Category> Category { get; set; }
         public DbSet<Product> Product { get; set; }
+        public DbSet<Brand> Brand { get; set; }
         public DbSet<SubCategory> SubCategory { get; set; }
         public DbSet<Size> Size { get; set; }
         public DbSet<Colors> Colors { get; set; }
