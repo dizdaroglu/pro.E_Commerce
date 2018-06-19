@@ -13,7 +13,7 @@ namespace pro.DataAccessLayer.DAL
 
         public DatabaseContext():base("connStr")
         {
-
+            
         }
 
         public DbSet<Category> Category { get; set; }
@@ -33,7 +33,11 @@ namespace pro.DataAccessLayer.DAL
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-           // modelBuilder.Entity<Category>().ToTable("Category", "access");
+            // modelBuilder.Entity<Category>().ToTable("Category", "access");
+            ////// proxy  ayarı
+            //this.Configuration.ProxyCreationEnabled = true;
+            //this.Configuration.LazyLoadingEnabled = true;
+            //// this.Configuration.AutoDetectChangesEnabled = true;
         }
     }
 }

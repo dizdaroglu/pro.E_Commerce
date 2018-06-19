@@ -34,3 +34,13 @@ C:\Users\LENOVO\Desktop\PROOOO\pro\pro.CoreLayer\obj\Debug\pro.CoreLayer.csproj.
 C:\Users\LENOVO\Desktop\PROOOO\pro\pro.CoreLayer\obj\Debug\pro.CoreLayer.csproj.CopyComplete
 C:\Users\LENOVO\Desktop\PROOOO\pro\pro.CoreLayer\obj\Debug\pro.CoreLayer.dll
 C:\Users\LENOVO\Desktop\PROOOO\pro\pro.CoreLayer\obj\Debug\pro.CoreLayer.pdb
+C:\e-commerce\proje\pro\pro.CoreLayer\bin\Debug\pro.CoreLayer.dll.config
+C:\e-commerce\proje\pro\pro.CoreLayer\bin\Debug\pro.CoreLayer.dll
+C:\e-commerce\proje\pro\pro.CoreLayer\bin\Debug\pro.CoreLayer.pdb
+C:\e-commerce\proje\pro\pro.CoreLayer\bin\Debug\EntityFramework.dll
+C:\e-commerce\proje\pro\pro.CoreLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\e-commerce\proje\pro\pro.CoreLayer\bin\Debug\EntityFramework.xml
+C:\e-commerce\proje\pro\pro.CoreLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\e-commerce\proje\pro\pro.CoreLayer\obj\Debug\pro.CoreLayer.csproj.CoreCompileInputs.cache
+C:\e-commerce\proje\pro\pro.CoreLayer\obj\Debug\pro.CoreLayer.dll
+C:\e-commerce\proje\pro\pro.CoreLayer\obj\Debug\pro.CoreLayer.pdb

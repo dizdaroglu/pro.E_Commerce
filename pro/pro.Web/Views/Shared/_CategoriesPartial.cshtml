@@ -1,0 +1,30 @@
+﻿@model List<pro.EntitiesLayer.Models.Category>
+@{ 
+    Layout = null;
+
+}
+<div class="widget catagory mb-50">
+    <!-- Widget Title -->
+    <h6 class="widget-title mb-30">Catagories</h6>
+
+    <!--  Catagories  -->
+    <div class="catagories-menu">
+        <ul id="menu-content2" class="menu-content collapse show">
+            <!-- Single Item -->
+           @foreach (var item in Model)
+           {
+            <li data-toggle="collapse" data-target="#clothing">
+                <a href="#">@item.Name</a>
+                <ul class="sub-menu collapse show" id="clothing">
+                   @foreach (var subItem in item.SubCategory.ToList())
+                   {
+                    <li><a href="#">@subItem.Name</a></li>
+                   }
+
+                </ul>
+            </li>
+           }
+
+        </ul>
+    </div>
+</div>
