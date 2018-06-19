@@ -12,13 +12,15 @@ namespace pro.EntitiesLayer.Models
     public class Customer:BaseEntity,IEntity
     {
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int CustomerId { get; set; }
+        public int CustomerId { get; set; } 
         public string Name { get; set; }
         public string Surname { get; set; }
         public string UserName { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
         public string ProfileImage { get; set; }
+        public bool isActive { get; set; }
+        public Guid ActivationCode { get; set; }
         public int RoleId { get; set; } // FK 
 
         public virtual Roles Role { get; set; } // Gezmek için 

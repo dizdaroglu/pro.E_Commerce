@@ -48,3 +48,4 @@ C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\bin\Debug\EntityFramework.
 C:\Users\LENOVO\Desktop\PROJE\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.csproj.CopyComplete
 C:\e-commerce\proje\pro\pro.DataAccessLayer\bin\Debug\pro.CoreLayer.dll.config
 C:\e-commerce\proje\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.Migrations.create_brand_table.resources
+C:\e-commerce\proje\pro\pro.DataAccessLayer\obj\Debug\pro.DataAccessLayer.Migrations.create_customer_activecode.resources
