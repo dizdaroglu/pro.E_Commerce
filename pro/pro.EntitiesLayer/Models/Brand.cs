@@ -1,4 +1,5 @@
-﻿using System;
+﻿using pro.CoreLayer;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace pro.EntitiesLayer.Models
 {
-    public class Brand:BaseEntity,IEnntity
+    public class Brand:BaseEntity,IEntity
     {
         [Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int BrandId { get; set; }
