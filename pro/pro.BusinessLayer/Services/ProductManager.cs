@@ -37,5 +37,32 @@ namespace pro.BusinessLayer.Services
         {
             return _unitOfWork.ProductDal.FindAll().OrderByDescending(m => m.UnitPrice).ToList();
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="SubCategoryId">Alt kategori id </param>
+        /// <returns> Gelen alt ateogriye gore ürünleri çeker </returns>
+        public List<Product> GetProductsBySubCategory(int SubCategoryId)
+        {
+
+            if (SubCategoryId==null)
+            {
+                throw new ArgumentNullException("SubCategroyId null ");
+
+            }
+            else
+            {
+                List<Product> result = _unitOfWork.ProductDal.FindAll(m => m.SubCategoryId == SubCategoryId);
+                if (result!=null)
+                {
+                    return result;
+                }
+                
+            }
+
+            return null;
+        }
+
+
     }
 }

@@ -14,5 +14,7 @@ namespace pro.BusinessLayer.Abstract
 
         List<Product> GetListPrice();
         List<Product> GetListNew();
+
+        List<Product> GetProductsBySubCategory(int SubCategoryId);
     }
 }
