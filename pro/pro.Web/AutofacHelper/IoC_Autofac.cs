@@ -22,6 +22,7 @@ namespace pro.Web.AutofacHelper
             
             builder.RegisterType<SubCategoryManager>().As<ISubCategoryServices>();
             builder.RegisterType<ProductManager>().As<IProductServices>();
+            builder.RegisterType<BrandManager>().As<IBrandServices>();
             builder.RegisterType<ColorsManager>().As<IColorsServices>();
 
 
