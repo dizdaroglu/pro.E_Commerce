@@ -26,6 +26,7 @@ namespace pro.DataAccessLayer.UnitOfWork.Abstract
 
         ISubCategoryDal SubCategoryDal { get; }
 
+        IBrandDal BrandDal { get; }
 
         int Complete();
 

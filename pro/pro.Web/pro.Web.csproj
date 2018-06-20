@@ -339,6 +339,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Product\GetProduct.cshtml" />
     <Content Include="Views\Shared\_CategoriesPartial.cshtml" />
+    <Content Include="Views\Shared\_BrandPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -28,7 +28,7 @@ namespace pro.DataAccessLayer.UnitOfWork.Concreate
             RolesDal = new EfRolesDal(_context);
             SizeDal = new EfSizeDal(_context);
             SubCategoryDal = new EfSubCategoryDal(_context);
-
+            BrandDal = new EfBrandDal(_context);
         }
 
 
@@ -55,6 +55,8 @@ namespace pro.DataAccessLayer.UnitOfWork.Concreate
         public ISizeDal SizeDal { get; private set; }
 
         public ISubCategoryDal SubCategoryDal { get; private set; }
+
+        public IBrandDal BrandDal { get; private set; }
 
         public int Complete()
         {

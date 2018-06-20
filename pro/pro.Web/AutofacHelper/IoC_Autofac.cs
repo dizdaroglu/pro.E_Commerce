@@ -22,7 +22,7 @@ namespace pro.Web.AutofacHelper
             
             builder.RegisterType<CategoryManager>().As<ICategoryServices>();
             builder.RegisterType<ProductManager>().As<IProductServices>();
-           
+            builder.RegisterType<BrandManager>().As<IBrandServices>();
 
 
             IContainer container = builder.Build();

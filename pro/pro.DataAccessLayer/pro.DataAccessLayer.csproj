@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\IBasketDal.cs" />
+    <Compile Include="Abstract\IBrandDal.cs" />
     <Compile Include="Abstract\IBuyDal.cs" />
     <Compile Include="Abstract\ICategoryDal.cs" />
     <Compile Include="Abstract\IColorsDal.cs" />
@@ -60,6 +61,7 @@
     <Compile Include="Abstract\ISizeDal.cs" />
     <Compile Include="Abstract\ISubCategoryDal.cs" />
     <Compile Include="Concreate\EfBasketDal.cs" />
+    <Compile Include="Concreate\EfBrandDal.cs" />
     <Compile Include="Concreate\EfBuyDal.cs" />
     <Compile Include="Concreate\EfCategoryDal.cs" />
     <Compile Include="Concreate\EfColorsDal.cs" />
