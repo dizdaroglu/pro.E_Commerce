@@ -13,9 +13,11 @@ namespace pro.Web.Controllers
 
 
         private ICategoryServices _categoryServices;
-        public HomeController(ICategoryServices categoryServices)
+        private IBrandServices _brandServices;
+        public HomeController(ICategoryServices categoryServices,IBrandServices brandServices)
         {
             _categoryServices = categoryServices;
+            _brandServices = brandServices;
         }
         public ActionResult Index()
         {
@@ -40,6 +42,12 @@ namespace pro.Web.Controllers
         {
             List<Category> liste = _categoryServices.GetCategoryList();
             return View(liste);
+        }
+
+        public ActionResult _BrandPartial()
+        {
+            List<Brand> brandList = _brandServices.GetBrands();
+            return View(brandList);
         }
     }
 }

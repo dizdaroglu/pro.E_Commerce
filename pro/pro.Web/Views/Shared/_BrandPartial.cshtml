@@ -1,0 +1,20 @@
+﻿
+@model List<pro.EntitiesLayer.Models.Brand>
+@{
+    ViewBag.Title = "_BrandPartial";
+    Layout = null;
+}
+
+<div class="widget brands mb-50">
+    <!-- Widget Title 2 -->
+    <p class="widget-title2 mb-30">Brands</p>
+    <div class="widget-desc">
+        <ul>
+            @foreach (var item in Model)
+            {
+                <li><a href="#">@item.Name</a></li>
+            }
+        </ul>
+    </div>
+</div>
+
