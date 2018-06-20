@@ -48,5 +48,6 @@ namespace pro.Web.Controllers
             List<Colors> liste = _colorsServices.GetColorsList();   
             return View(liste);
         }
+        //hazır
     }
 }
