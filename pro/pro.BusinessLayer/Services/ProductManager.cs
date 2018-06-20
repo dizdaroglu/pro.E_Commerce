@@ -33,10 +33,17 @@ namespace pro.BusinessLayer.Services
             return _unitOfWork.ProductDal.FindAll().OrderByDescending(m => m.CreatedDate).ToList();
         }
 
-        public List<Product> GetListPrice()
+        public List<Product> GetListPriceByHigh()
         {
             return _unitOfWork.ProductDal.FindAll().OrderByDescending(m => m.UnitPrice).ToList();
         }
+
+        public List<Product> GetListPriceByLow()
+        {
+            return _unitOfWork.ProductDal.FindAll().OrderBy(m => m.UnitPrice).ToList();
+
+        }
+
         /// <summary>
         /// 
         /// </summary>

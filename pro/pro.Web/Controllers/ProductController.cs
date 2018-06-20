@@ -25,5 +25,41 @@ namespace pro.Web.Controllers
             List<Product> list = _productServices.GetList();
             return View(list);
         }
+
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sort">Sort nesnesi sortBySelect ile jquery ile gelecektir. </param>
+        /// <returns></returns>
+        public ActionResult GetListSortBy(String sort)
+        {
+            List<Product> list = null;
+            if (sort.Equals("Highest Rated"))
+            {
+                // En yksek puan şimdfilik kalsın 
+            }
+
+            else if (sort.Equals("Newest"))
+            {
+                list = _productServices.GetListNew();
+            }
+
+
+            else if (sort.Equals("Price: $$ - $"))
+            {
+                list = _productServices.GetListPriceByHigh();
+            }
+
+
+            else if (sort.Equals("Price: $ - $$"))
+            {
+                list = _productServices.GetListPriceByLow();
+            }
+
+            return View("GetProduct", list);
+
+
+        }
     }
 }
