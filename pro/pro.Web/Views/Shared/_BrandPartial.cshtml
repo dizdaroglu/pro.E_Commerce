@@ -1,7 +1,6 @@
-﻿
-@model List<pro.EntitiesLayer.Models.Brand>
+﻿@model List<pro.EntitiesLayer.Models.Brand>
 @{
-    ViewBag.Title = "_BrandPartial";
+   
     Layout = null;
 }
 
@@ -10,6 +9,7 @@
     <p class="widget-title2 mb-30">Brands</p>
     <div class="widget-desc">
         <ul>
+            
             @foreach (var item in Model)
             {
                 <li><a href="#">@item.Name</a></li>

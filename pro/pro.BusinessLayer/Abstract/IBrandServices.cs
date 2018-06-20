@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace pro.BusinessLayer.Abstract
 {
-    public interface IBrandServices
+   public interface IBrandServices
     {
-        List<Brand> GetBrands();
+        List<Brand> GetBrandList();
     }
 }
