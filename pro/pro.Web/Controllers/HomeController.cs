@@ -12,35 +12,23 @@ namespace pro.Web.Controllers
     {
 
 
-<<<<<<< HEAD
-        private ICategoryServices _categoryServices;
+        private ISubCategoryServices _subcategoryServices;
         private IBrandServices _brandServices;
         private IProductServices _productServices;
-        public HomeController(ICategoryServices categoryServices, IBrandServices brandServices,IProductServices productServices)
-        {
-            _categoryServices = categoryServices;
-            _brandServices = brandServices;
-            _productServices = productServices;
-        }
-        public ActionResult Index()
-        {
-            List<Category> categoryList = _categoryServices.GetCategoryList();
-            return View();
-=======
-        private ISubCategoryServices _subcategoryServices;
         private IColorsServices _colorsServices;
-        public HomeController(ISubCategoryServices subcategoryServices,IColorsServices colorsServices)
+        public HomeController(ISubCategoryServices subcategoryServices, IBrandServices brandServices,IProductServices productServices,IColorsServices colorsServices)
         {
             _subcategoryServices = subcategoryServices;
+            _brandServices = brandServices;
+            _productServices = productServices;
             _colorsServices = colorsServices;
         }
         public ActionResult Index()
         {
-              List<SubCategory>  subcategoryList = _subcategoryServices.GetSubCategoryList();
-             return View();
->>>>>>> 45bab496480fdca1c6ab162527cce3b65dc480bf
+            //List<SubCategory> categoryList = _subcategoryServices.GetSubCategoryList();
+            return View();
         }
-
+      
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -61,14 +49,10 @@ namespace pro.Web.Controllers
         }
         public ActionResult _ColorsPartial()
         {
-            List<Colors> liste = _colorsServices.GetColorsList();   
+            List<Colors> liste = _colorsServices.GetColorsList();
             return View(liste);
         }
-<<<<<<< HEAD
-
        
-=======
-        //hazır
->>>>>>> 45bab496480fdca1c6ab162527cce3b65dc480bf
+
     }
 }
