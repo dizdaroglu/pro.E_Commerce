@@ -52,7 +52,12 @@ namespace pro.Web.Controllers
             List<Colors> liste = _colorsServices.GetColorsList();
             return View(liste);
         }
-       
+        public ActionResult _BrandPartial()
+        {
+            List<Brand> list = _brandServices.GetBrandList();
+
+            return View(list);
+        }
 
     }
 }
