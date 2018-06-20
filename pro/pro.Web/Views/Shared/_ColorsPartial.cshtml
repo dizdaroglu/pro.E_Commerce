@@ -1,0 +1,21 @@
+﻿@model List<pro.EntitiesLayer.Models.Colors>
+@{
+    ViewBag.Title = "_ColorsPartial";
+    Layout = null;
+}
+
+<div class="widget color mb-50">
+    <!-- Widget Title 2 -->
+    <p class="widget-title2 mb-30">Color</p>
+    <div class="widget-desc">
+        <ul class="d-flex">
+            @foreach (var item in Model)
+            {
+                <li><a href="#" style="background-color:@item.Code"></a></li>
+            }
+            
+            
+        </ul>
+    </div>
+</div>
+

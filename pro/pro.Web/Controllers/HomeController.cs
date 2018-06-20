@@ -38,7 +38,7 @@ namespace pro.Web.Controllers
 
             return View();
         }
-        public ActionResult _SubCategoriesPartial()
+        public ActionResult _CategoriesPartial()
         {
             List<SubCategory> liste = _subcategoryServices.GetSubCategoryList();
             return View(liste);

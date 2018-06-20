@@ -1,4 +1,4 @@
-﻿@model List<pro.EntitiesLayer.Models.Category>
+﻿@model List<pro.EntitiesLayer.Models.SubCategory>
 @{ 
     Layout = null;
 
@@ -11,19 +11,38 @@
     <div class="catagories-menu">
         <ul id="menu-content2" class="menu-content collapse show">
             <!-- Single Item -->
-           @foreach (var item in Model)
-           {
+          
             <li data-toggle="collapse" data-target="#clothing">
-                <a href="#">@item.Name</a>
+                <a href="#">CLOTHING</a>
                 <ul class="sub-menu collapse show" id="clothing">
-                   @foreach (var subItem in item.SubCategory.ToList())
+                   @foreach (var item in Model)
                    {
-                    <li><a href="#">@subItem.Name</a></li>
+                    <li><a href="#">@item.Name</a></li>
                    }
 
                 </ul>
             </li>
-           }
+            <li data-toggle="collapse" data-target="#shoes" class="collapsed">
+                <a href="#">SHOES</a>
+                <ul class="sub-menu collapse" id="shoes">
+                    @foreach (var item in Model)
+                    {
+                        <li><a href="#">@item.Name</a></li>
+                    }
+
+                </ul>
+            </li>
+            <li data-toggle="collapse" data-target="#accessories" class="collapsed">
+                <a href="#">ACCESSORIES</a>
+                <ul class="sub-menu collapse" id="accessories">
+                    @foreach (var item in Model)
+                    {
+                        <li><a href="#">@item.Name</a></li>
+                    }
+
+                </ul>
+            </li>
+           
 
         </ul>
     </div>
