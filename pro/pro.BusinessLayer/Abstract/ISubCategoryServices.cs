@@ -10,5 +10,7 @@ namespace pro.BusinessLayer.Abstract
     public interface ISubCategoryServices
     {
         List<SubCategory> GetSubCategoryList(int id);
+        List<SubCategory> GetSubCategoryList();
+        
     }
 }

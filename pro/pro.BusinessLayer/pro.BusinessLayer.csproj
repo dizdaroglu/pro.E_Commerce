@@ -43,6 +43,7 @@
     <Compile Include="Abstract\IBasketServices.cs" />
     <Compile Include="Abstract\IBrandServices.cs" />
     <Compile Include="Abstract\ICategoryServices.cs" />
+    <Compile Include="Abstract\IColorsServices.cs" />
     <Compile Include="Abstract\ICustomerServices.cs" />
     <Compile Include="Abstract\IProductServices.cs" />
     <Compile Include="Abstract\ISubCategoryServices.cs" />
@@ -50,6 +51,7 @@
     <Compile Include="Services\BasketManager.cs" />
     <Compile Include="Services\BrandManager.cs" />
     <Compile Include="Services\CategoryManager.cs" />
+    <Compile Include="Services\ColorsManager.cs" />
     <Compile Include="Services\CustomerManager.cs" />
     <Compile Include="Services\ProductManager.cs" />
     <Compile Include="Services\SubCategoryManager.cs" />

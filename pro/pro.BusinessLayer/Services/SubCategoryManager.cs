@@ -22,6 +22,9 @@ namespace pro.BusinessLayer.Services
             return _unitOfWork.SubCategoryDal.FindAll(m => m.CategoryId == id);
         }
 
-       
+        public List<SubCategory> GetSubCategoryList()
+        {
+            return _unitOfWork.SubCategoryDal.FindAll();
+        }
     }
 }

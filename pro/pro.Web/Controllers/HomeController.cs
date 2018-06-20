@@ -12,17 +12,17 @@ namespace pro.Web.Controllers
     {
 
 
-        private ICategoryServices _categoryServices;
-        private IBrandServices _brandServices;
-        public HomeController(ICategoryServices categoryServices,IBrandServices brandServices)
+        private ISubCategoryServices _subcategoryServices;
+        private IColorsServices _colorsServices;
+        public HomeController(ISubCategoryServices subcategoryServices,IColorsServices colorsServices)
         {
-            _categoryServices = categoryServices;
-            _brandServices = brandServices;
+            _subcategoryServices = subcategoryServices;
+            _colorsServices = colorsServices;
         }
         public ActionResult Index()
         {
-              List<Category>  categoryList = _categoryServices.GetCategoryList();
-            return View();
+              List<SubCategory>  subcategoryList = _subcategoryServices.GetSubCategoryList();
+             return View();
         }
 
         public ActionResult About()
@@ -38,16 +38,15 @@ namespace pro.Web.Controllers
 
             return View();
         }
-        public ActionResult _CategoriesPartial()
+        public ActionResult _SubCategoriesPartial()
         {
-            List<Category> liste = _categoryServices.GetCategoryList();
+            List<SubCategory> liste = _subcategoryServices.GetSubCategoryList();
             return View(liste);
         }
-
-        public ActionResult _BrandPartial()
+        public ActionResult _ColorsPartial()
         {
-            List<Brand> brandList = _brandServices.GetBrands();
-            return View(brandList);
+            List<Colors> liste = _colorsServices.GetColorsList();   
+            return View(liste);
         }
     }
 }

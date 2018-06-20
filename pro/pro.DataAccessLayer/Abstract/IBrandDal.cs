@@ -10,6 +10,5 @@ namespace pro.DataAccessLayer.Abstract
 {
     public interface IBrandDal:IGenericRepository<Brand>
     {
-        
     }
 }

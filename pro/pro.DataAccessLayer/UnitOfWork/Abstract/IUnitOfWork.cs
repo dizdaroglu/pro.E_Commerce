@@ -18,6 +18,7 @@ namespace pro.DataAccessLayer.UnitOfWork.Abstract
         IFavsDal FavsDal { get; }
         IImagesDal ImagesDal { get; }
         IProductDal ProductDal { get; }
+        IBrandDal BrandDal { get; }
         IProductSizeColorDal ProductSizeColorDal { get; }
 
         IRolesDal RolesDal { get; }
@@ -26,7 +27,6 @@ namespace pro.DataAccessLayer.UnitOfWork.Abstract
 
         ISubCategoryDal SubCategoryDal { get; }
 
-        IBrandDal BrandDal { get; }
 
         int Complete();
 

@@ -255,3 +255,4 @@ C:\e-commerce\proje\pro\pro.Web\bin\EntityFramework.SqlServer.xml
 C:\Users\LENOVO\Desktop\PROOOO\pro\pro.Web\bin\EntityFramework.SqlServer.dll
 C:\Users\LENOVO\Desktop\PROOOO\pro\pro.Web\bin\pro.BusinessLayer.dll.config
 C:\Users\LENOVO\Desktop\PROOOO\pro\pro.Web\bin\EntityFramework.SqlServer.xml
+C:\e-commerce\proje\pro\pro.Web\bin\pro.BusinessLayer.dll.config
