@@ -21,7 +21,7 @@ namespace pro.Web.AutofacHelper
 
             
             builder.RegisterType<CategoryManager>().As<ICategoryServices>();
-
+            builder.RegisterType<ProductManager>().As<IProductServices>();
            
 
 
