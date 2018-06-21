@@ -24,7 +24,7 @@ namespace pro.Web.AutofacHelper
             builder.RegisterType<ProductManager>().As<IProductServices>();
             builder.RegisterType<BrandManager>().As<IBrandServices>();
             builder.RegisterType<ColorsManager>().As<IColorsServices>();
-
+            builder.RegisterType<CustomerManager>().As<ICustomerServices>();
 
             IContainer container = builder.Build();
 

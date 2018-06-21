@@ -15,8 +15,10 @@ namespace pro.EntitiesLayer.Models
         public int CustomerId { get; set; } 
         public string Name { get; set; }
         public string Surname { get; set; }
+        [Required(ErrorMessage ="Lütfen kullanıcı adını boş bırakmayınız.")]
         public string UserName { get; set; }
         public string Email { get; set; }
+        [Required(ErrorMessage ="Lütfen şifre alanını boş bırakmayınız.")]
         public string Password { get; set; }
         public string ProfileImage { get; set; }
         public bool isActive { get; set; }

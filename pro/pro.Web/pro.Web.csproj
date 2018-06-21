@@ -155,6 +155,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="AutofacHelper\IoC_Autofac.cs" />
+    <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Global.asax.cs">
@@ -217,6 +218,7 @@
     <Content Include="bin\System.Web.WebPages.Razor.xml" />
     <Content Include="bin\System.Web.WebPages.xml" />
     <Content Include="bin\WebGrease.dll" />
+    <Content Include="Content\bay.png" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\css\animate.css" />
@@ -341,6 +343,7 @@
     <Content Include="Views\Product\GetProduct.cshtml" />
     <Content Include="Views\Shared\_CategoriesPartial.cshtml" />
     <Content Include="Views\Shared\_BrandPartial.cshtml" />
+    <Content Include="Views\Customer\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -363,6 +366,10 @@
     <ProjectReference Include="..\pro.BusinessLayer\pro.BusinessLayer.csproj">
       <Project>{894F09B7-124E-4548-B1AC-18CE810BA6F3}</Project>
       <Name>pro.BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\pro.CoreLayer\pro.CoreLayer.csproj">
+      <Project>{3E825227-1448-43A0-AA5D-9657EE594C08}</Project>
+      <Name>pro.CoreLayer</Name>
     </ProjectReference>
     <ProjectReference Include="..\pro.EntitiesLayer\pro.EntitiesLayer.csproj">
       <Project>{9C400779-18DE-4E9F-A342-22F3C6C6FF26}</Project>
