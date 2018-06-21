@@ -45,6 +45,7 @@
     <Compile Include="Abstract\ICategoryServices.cs" />
     <Compile Include="Abstract\IColorsServices.cs" />
     <Compile Include="Abstract\ICustomerServices.cs" />
+    <Compile Include="Abstract\IFavServices.cs" />
     <Compile Include="Abstract\IProductServices.cs" />
     <Compile Include="Abstract\ISubCategoryServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -53,6 +54,7 @@
     <Compile Include="Services\CategoryManager.cs" />
     <Compile Include="Services\ColorsManager.cs" />
     <Compile Include="Services\CustomerManager.cs" />
+    <Compile Include="Services\FavManager.cs" />
     <Compile Include="Services\ProductManager.cs" />
     <Compile Include="Services\SubCategoryManager.cs" />
   </ItemGroup>
