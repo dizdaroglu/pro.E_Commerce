@@ -39,7 +39,7 @@ namespace pro.Web.Controllers
                 ModifiedDate = DateTime.Now
             };
             _favServices.AddToFav(favs);
-            return View();
+            return RedirectToAction("GetProduct", "Product");
         }
         /// <summary>
         /// Favorilerden cıkarılan kod paracaıs

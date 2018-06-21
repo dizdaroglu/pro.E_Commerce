@@ -123,11 +123,11 @@
                     </div>
 
                     <!-- ##### Single Widget ##### -->
-                    @{Html.RenderAction("_ColorsPartial", "Home");}  
+                    @{Html.RenderAction("_ColorsPartial", "Home");}
 
-                    
 
-                   
+
+
 
                     <!-- ##### Single Widget ##### -->
                     <!-- BRAND PARTIAL -->
@@ -187,10 +187,15 @@
                                         <div class="product-badge offer-badge">
                                             <span>-30%</span>
                                         </div>
+                                        @if (Session["loginCustomer"] != null)
+                                        {
+                                            <div class="product-favourite">
+                                                <a href="/Favorite/AddToFavorite/@item.ProductId" class="favme fa fa-heart"></a>
+                                            </div>
+                                        }
+
                                         <!-- Favourite -->
-                                        <div class="product-favourite">
-                                            <a href="#" class="favme fa fa-heart"></a>
-                                        </div>
+
                                     </div>
 
                                     <!-- Product Description -->
@@ -204,9 +209,12 @@
                                         <!-- Hover Content -->
                                         <div class="hover-content">
                                             <!-- Add to Cart -->
-                                            <div class="add-to-cart-btn">
-                                                <a href="#" class="btn essence-btn">Sepete Ekle </a>
-                                            </div>
+                                            @if (Session["loginCustomer"] != null)
+                                            {
+                                                <div class="add-to-cart-btn">
+                                                    <a href="/Basket/AddToBasket/@item.ProductId" class="btn essence-btn">Sepete Ekle </a>
+                                                </div>
+                                            }
                                         </div>
                                     </div>
                                 </div>
@@ -252,10 +260,10 @@
 
 
             }).done(function () {
-                    alert("Başarili");
-                }).fail(function (error) {
-                    alert("Hatali");
-                });
+                alert("Başarili");
+            }).fail(function (error) {
+                alert("Hatali");
+            });
 
 
         });
