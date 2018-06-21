@@ -1,4 +1,10 @@
-﻿<!DOCTYPE html>
+﻿@using pro.EntitiesLayer.Models
+@{ 
+    Customer loginCustomer = Session["loginCustomer"] as Customer;
+}
+
+
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -112,18 +118,42 @@
                         <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
                     </form>
                 </div>
-                <!-- Favourite Area -->
-                <div class="favourite-area">
-                    <a href="#"><img src="~/img/core-img/heart.svg" alt=""></a>
-                </div>
-                <!-- User Login Info -->
-                <div class="user-login-info">
-                    <a href="#"><img src="~/img/core-img/user.svg" alt=""></a>
-                </div>
-                <!-- Cart Area -->
-                <div class="cart-area">
-                    <a href="#" id="essenceCartBtn"><img src="~/img/core-img/bag.svg" alt=""> <span>3</span></a>
-                </div>
+                @if (Session["loginCustomer"] != null)
+                {
+                    <!-- Favourite Area -->
+                    <div class="favourite-area">
+                        <a href="#"><img src="~/img/core-img/heart.svg" alt=""></a>
+                    </div>
+                    <!-- User Login Info -->
+                    <div class="user-login-info">
+                        <a href="#"><img class="img-circle img-responsive"   src="@loginCustomer.ProfileImage" alt=""></a>
+                    </div>
+                    <!-- Cart Area -->
+                    <div class="cart-area">
+                        <a href="#" id="essenceCartBtn"><img src="~/img/core-img/bag.svg" alt=""> <span>3</span></a>
+                    </div>
+
+                    <div class="favourite-area">
+                        <a href="/Customer/Logout"><span class="glyphicon glyphicon-log-out "> Çıkış  Yap </span></a>
+                    </div>
+                }
+                else
+                {
+                    <div class="favourite-area">
+                        <a href="/Customer/Register"><span class="glyphicon glyphicon-plus ">  Kayit Ol  </span></a>
+                    </div>
+
+                    <div class="favourite-area">
+                        <a href="/Customer/Login"><span class="glyphicon glyphicon-log-in "> Giriş Yap </span></a>
+                    </div>
+                }
+
+
+
+
+
+
+
             </div>
 
         </div>

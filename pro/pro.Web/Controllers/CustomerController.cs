@@ -48,7 +48,7 @@ namespace pro.Web.Controllers
                 if (res == true)
                 {
                    // ModelState.AddModelError("", "Giriş Başarılı");
-                    Session["loginCustomer"] = customer;
+                    Session["loginCustomer"] = findCustomer;
                     return RedirectToAction("Index", "Home");
                 }
                 else
@@ -104,7 +104,13 @@ namespace pro.Web.Controllers
 
         #endregion
 
-
+        public ActionResult Logout()
+        {
+            Session["loginCustomer"] = null;
+            Session.Abandon();
+            Session.Clear();
+            return RedirectToAction("Index", "Home");
+        }
 
     }
 }
