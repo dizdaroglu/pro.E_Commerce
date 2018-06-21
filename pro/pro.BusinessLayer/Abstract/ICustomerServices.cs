@@ -12,9 +12,13 @@ namespace pro.BusinessLayer.Abstract
         // Register
 
         // Kullainci adi veya email var mi 
-        bool CheckCustomer(Customer customer);
-        void Register(Customer customer);
+        bool CheckCustomerByUsername(String username);
+        bool CheckCustomerByEmail(String email);
+        bool Register(Customer customer);
 
         bool Login(Customer customer);
+
+        Customer FindCustomerByName(String username);
+
     }
 }

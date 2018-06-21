@@ -26,6 +26,11 @@ namespace pro.Web.Controllers
             return View(list);
         }
 
+        public ActionResult Details(int id)
+        {
+            Product findedProduct = _productServices.GetProductById(id);
+            return View(findedProduct);
+        }
 
         /// <summary>
         /// 

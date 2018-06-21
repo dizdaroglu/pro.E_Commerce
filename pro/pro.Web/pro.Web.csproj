@@ -155,11 +155,14 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="AutofacHelper\IoC_Autofac.cs" />
+    <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
+    <Compile Include="EmailHelper\EmailHelp.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\CustomerDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -217,6 +220,7 @@
     <Content Include="bin\System.Web.WebPages.Razor.xml" />
     <Content Include="bin\System.Web.WebPages.xml" />
     <Content Include="bin\WebGrease.dll" />
+    <Content Include="Content\bay.png" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\css\animate.css" />
@@ -228,6 +232,7 @@
     <Content Include="Content\css\magnific-popup.css" />
     <Content Include="Content\css\nice-select.css" />
     <Content Include="Content\css\owl.carousel.css" />
+    <Content Include="Content\single-product-details.html" />
     <Content Include="Content\style.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -341,10 +346,12 @@
     <Content Include="Views\Product\GetProduct.cshtml" />
     <Content Include="Views\Shared\_CategoriesPartial.cshtml" />
     <Content Include="Views\Shared\_BrandPartial.cshtml" />
+    <Content Include="Views\Customer\Login.cshtml" />
+    <Content Include="Views\Customer\Register.cshtml" />
+    <Content Include="Views\Product\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -363,6 +370,10 @@
     <ProjectReference Include="..\pro.BusinessLayer\pro.BusinessLayer.csproj">
       <Project>{894F09B7-124E-4548-B1AC-18CE810BA6F3}</Project>
       <Name>pro.BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\pro.CoreLayer\pro.CoreLayer.csproj">
+      <Project>{3E825227-1448-43A0-AA5D-9657EE594C08}</Project>
+      <Name>pro.CoreLayer</Name>
     </ProjectReference>
     <ProjectReference Include="..\pro.EntitiesLayer\pro.EntitiesLayer.csproj">
       <Project>{9C400779-18DE-4E9F-A342-22F3C6C6FF26}</Project>
