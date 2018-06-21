@@ -17,6 +17,8 @@ namespace pro.EntitiesLayer.Models
         public string Surname { get; set; }
         [Required(ErrorMessage ="Lütfen kullanıcı adını boş bırakmayınız.")]
         public string UserName { get; set; }
+        [Required(ErrorMessage = "Lütfen email alanını boş bırakmayınız..")]
+        [EmailAddress(ErrorMessage ="Lütfen e-mail tipine uygun bir adres giriniz.")]
         public string Email { get; set; }
         [Required(ErrorMessage ="Lütfen şifre alanını boş bırakmayınız.")]
         public string Password { get; set; }

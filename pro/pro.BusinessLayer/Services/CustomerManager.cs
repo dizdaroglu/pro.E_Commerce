@@ -20,26 +20,45 @@ namespace pro.BusinessLayer.Services
             unitOfWork = new UnitOfWork(new DatabaseContext());
         }
 
+        public bool CheckCustomerByEmail(string email)
+        {
+            bool res = false;
+            Customer findedCustomer = unitOfWork.CustomerDal.Find(m => m.Email.Equals(email));
+
+
+            if (findedCustomer != null)
+            {
+                res = true;
+            }
+            return res;
+        }
+
         #region custoemr işleri 
-        
+
 
         /// <summary>
         /// Gelen kullaniinini kaydina bakarak bool doner 
         /// </summary>
         /// <param name="customer"></param>
         /// <returns> true kayıt var demek ekelenemz false kayit yapbilir </returns>
-        public bool CheckCustomer(Customer customer)
+        public bool CheckCustomerByUsername(String username)
         {
             bool res = false;
-            Customer findedCustomer = unitOfWork.CustomerDal.Find(m => m.UserName.Equals(customer.UserName) || m.Email.Equals(customer.Email));
+            Customer findedCustomer = unitOfWork.CustomerDal.Find(m => m.UserName.Equals(username));
 
 
-            if (findedCustomer!=null)
+            if (findedCustomer != null)
             {
                 res = true;
             }
             return res;
         }
+
+        public Customer FindCustomerByName(string username)
+        {
+            return unitOfWork.CustomerDal.Find(m => m.UserName.Equals(username));
+        }
+
         /// <summary>
         /// Kullanici adi ve şifreye gore login işlemi yapar!
         /// </summary>
@@ -48,10 +67,10 @@ namespace pro.BusinessLayer.Services
         public bool Login(Customer customer)
         {
             bool res = false;
-            if (customer!=null)
+            if (customer != null)
             {
                 Customer findedCustomer = unitOfWork.CustomerDal.Find(m => m.UserName.Equals(customer.UserName) && m.Password.Equals(customer.Password));
-                if (findedCustomer!=null)
+                if (findedCustomer != null)
                 {
                     res = true;
                 }
@@ -63,20 +82,20 @@ namespace pro.BusinessLayer.Services
         /// Register işlemi yapar
         /// </summary>
         /// <param name="customer"> Register için gerekli nesne </param>
-        public void Register(Customer customer)
+        public bool Register(Customer customer)
         {
-            if (customer!=null)
+            bool res = false;
+            if (customer != null)
             {
                 // Veritabanında kullanici adi ve şifresi varmi
-                if (CheckCustomer(customer)==false)
-                {
-                    // Kayit yapiablir
-                    unitOfWork.CustomerDal.Add(customer);
-                    // Mail at ve mailde kullaniciya bir guid üret onu yolla
-                    // Save changes
-                    unitOfWork.Complete();
-                }
+                // Kayit yapiablir
+                unitOfWork.CustomerDal.Add(customer);
+                // Mail at ve mailde kullaniciya bir guid üret onu yolla
+                // Save changes
+                unitOfWork.Complete();
+                res = true;
             }
+            return res;
         }
         #endregion
 

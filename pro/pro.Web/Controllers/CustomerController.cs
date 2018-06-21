@@ -1,5 +1,6 @@
 ﻿using pro.BusinessLayer.Abstract;
 using pro.EntitiesLayer.Models;
+using pro.Web.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -35,17 +36,18 @@ namespace pro.Web.Controllers
         }
 
         [HttpPost]
-        public ActionResult Login(Customer customer)
+        public ActionResult Login(CustomerDto customer)
         {
+            Customer findCustomer = _customerServices.FindCustomerByName(customer.Username);
             if (ModelState.IsValid)
             {
 
 
                 // Kullanici Active olmuşmu 
-                bool res = _customerServices.Login(customer);
+                bool res = _customerServices.Login(findCustomer);
                 if (res == true)
                 {
-                    ModelState.AddModelError("", "Giriş Başarılı");
+                   // ModelState.AddModelError("", "Giriş Başarılı");
                     Session["loginCustomer"] = customer;
                     return RedirectToAction("Index", "Home");
                 }
@@ -65,6 +67,41 @@ namespace pro.Web.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public ActionResult Register(Customer customer)
+        {
+            if (ModelState.IsValid)
+            {
+                // Kullanıcı adı  kullanılmamış ise 
+                customer.ActivationCode = Guid.NewGuid();
+                customer.isActive = false;
+                customer.CreatedDate = DateTime.Now;
+                customer.RemovedDate = DateTime.Now;
+                customer.ModifiedDate = DateTime.Now;
+                customer.RoleId = 2;
+                customer.ProfileImage = "/Content/bay.png";
+                // Kişinin kullanici adi varmi  ? 
+                bool userIsAlready = _customerServices.CheckCustomerByUsername(customer.UserName);
+                bool userHasEmail = _customerServices.CheckCustomerByEmail(customer.Email);
+                if (userIsAlready==true)
+                {
+                    ModelState.AddModelError("", $"Bu {customer.UserName} kullanici adi kullaniliyor");
+                }
+                else if (userHasEmail == true)
+                {
+                    ModelState.AddModelError("", $"Bu {customer.Email} email kullaniliyor ");
+                }
+                else if(userHasEmail==false && userIsAlready == false)
+                {
+                    _customerServices.Register(customer);
+                    return RedirectToAction("Login", "Customer");
+                }
+            }
+
+            return View(customer);
+        }
+
         #endregion
 
 

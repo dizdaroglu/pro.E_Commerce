@@ -158,9 +158,11 @@
     <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
+    <Compile Include="EmailHelper\EmailHelp.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\CustomerDto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -344,10 +346,10 @@
     <Content Include="Views\Shared\_CategoriesPartial.cshtml" />
     <Content Include="Views\Shared\_BrandPartial.cshtml" />
     <Content Include="Views\Customer\Login.cshtml" />
+    <Content Include="Views\Customer\Register.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
