@@ -44,6 +44,12 @@ namespace pro.BusinessLayer.Services
 
         }
 
+        public Product GetProductById(int productId)
+        {
+            return _unitOfWork.ProductDal.Find(m => m.ProductId == productId);
+
+        }
+
         /// <summary>
         /// 
         /// </summary>
