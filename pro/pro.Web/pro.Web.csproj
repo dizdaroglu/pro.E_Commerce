@@ -155,6 +155,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="AutofacHelper\IoC_Autofac.cs" />
+    <Compile Include="Controllers\BasketController.cs" />
     <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\FavoriteController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -353,6 +354,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Basket\" />
     <Folder Include="Views\Favorite\" />
   </ItemGroup>
   <ItemGroup>
