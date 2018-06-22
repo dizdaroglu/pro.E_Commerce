@@ -26,6 +26,7 @@ namespace pro.Web.AutofacHelper
             builder.RegisterType<ColorsManager>().As<IColorsServices>();
             builder.RegisterType<CustomerManager>().As<ICustomerServices>();
             builder.RegisterType<FavManager>().As<IFavServices>();
+            builder.RegisterType<BasketManager>().As<IBasketServices>();
             IContainer container = builder.Build();
 
             // Controller seviyesinde
